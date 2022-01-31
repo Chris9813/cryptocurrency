@@ -7,6 +7,7 @@ export const getGifs = async(start=0) => {
         const {data} = await resp.json();
         return data;
     } catch (error) {
+        <p>{error}</p>
     }
 
 }
